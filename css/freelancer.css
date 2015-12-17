@@ -1,1 +1,63 @@
-/* Inserta tu código aqui */
+* body{
+ font-family: "Montserrat",sans-serif;   
+}
+/* MENU Y LOGO */
+.header{
+    background: #2c3e50;
+    width: 100%;
+}
+.header h3{
+    color: #fff;
+    padding-bottom: 10px;
+}
+.main-menu ul{
+    padding-top: 20px;
+}
+.main-menu li{
+    display: inline-block;
+    list-style: none;
+    padding-right: 20px;
+}
+.main-menu a{
+    color: #fff;
+    transition: all 0.5s;
+    padding: 10px;
+}
+
+.main-menu a:hover, .active{
+	text-decoration: none;
+	background: #1a242f;
+    transform: scale(1.2);
+}
+/* STAR*/
+.fondo1{
+    background: #18bc9c;
+    width: 100%;
+    padding: 70px;
+    text-align: center;
+}
+.fondo1 h1, p{
+    color:#fff;
+}
+.fondo1 hr, #icono1{
+    display: inline-block !important;
+    width: 60px;
+    color: #fff;
+    margin-bottom: 5px;
+}
+/* PORTAFOLIO */
+.fondo2{
+    text-align: center;
+}
+.fondo2 hr, #icono2{
+    display: inline-block !important;
+    width: 60px;
+    text-align: center;
+    margin-bottom: 5px;
+    color: black;
+}
+.fondo2 img{
+    width: 100%;
+    max-height: 300px;
+    vertical-align: middle;
+}
