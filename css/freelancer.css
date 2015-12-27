@@ -1,69 +1,185 @@
 * body{
  font-family: "Montserrat",sans-serif;   
 }
-/* MENU Y LOGO */
-.header{
+/*/*ALL MENU Y LOGO*/
+.header, .header2, .header3{
     background: #2c3e50;
     width: 100%;
 }
-.header h3{
-    color: #fff;
+.header h3, .header2 h3, .header3 h3{
     padding-bottom: 10px;
 }
+.header h3 a, .header2 h3 a, .header3 h3 a{
+    color:#fff;
+    text-decoration: none;
+}
 .main-menu ul{
-    padding-top: 20px;
+    padding-top: 25px;
 }
 .main-menu li{
     display: inline-block;
-    list-style: none;
-    padding-right: 20px;
+    list-style: none;    
 }
 .main-menu a{
     color: #fff;
     transition: all 0.5s;
     padding: 10px;
+    text-decoration: none;
 }
 .main-menu a:hover, .active{
 	text-decoration: none;
 	background: #1a242f;
     transform: scale(1.2);
 }
-/* STAR*/
-.fondo1{
-    background: #18bc9c;
-    width: 100%;
-    padding: 70px;
-    text-align: center;
-    color: #fff;
+
+/*MENUS*/
+.header li{
+    padding-right: 20px;
 }
-.fondo1 h1{
+.header2 li{
+    padding-right: 0px;
+}
+.header3 ul{
+    margin-left: 240px;
+}
+.header3 li{
+    padding:0px 10px 0px;
+}
+
+/*INDEX - PAGINA ABOUT - PAGINA BLOG FONDOS*/
+#superstar, #portafolio, #about, #blog, #contact, #about2, #im, #contact2, #our, #portafolio2, #contact3{
+    width: 100%;
+    text-align: center;
+}
+#superstar, #about, #contact, #about2, #contact2, #our, #contact3{
+    color: #fff;
+    background: #18bc9c;
+    padding: 60px 0px 80px 0px;
+}
+#portafolio{
+    padding: 30px 0px;
+}
+#blog{
+    padding: 60px 0px 80px 0px;
+}
+#im{
+    text-align: justify;
+    padding: 80px 0px 60px 0px;
+}
+#portafolio2{
+     padding: 60px 0px 50px 0px;
+}
+
+/*INDEX - PAGINA ABOUT - PAGINA BLOG  TITULOS, LINEA Y ESTRELLA*/
+#superstar h1, #portafolio h3, #about h3, #blog h3, #contact h3, #about2, #im, #contact2 h3, #our,#portafolio2 h3, #contact3 h3{
+    margin: 0px;
+}
+#superstar h1 #contact h3, #contact2 h3, #contact3 h3{
+     font-weight: bold;
+}
+#im h3{
+    text-align: center;
+}
+#portafolio2 h2{
+    color: #18bc9c;
+    text-align: left;
     font-weight: bold;
 }
-.fondo1 hr, #icono1{
-    display: inline-block !important;
-}
-.fondo1 hr{
-    border: 2px solid #fff;
+#superstar hr, #portafolio hr, #about hr, #blog hr, #contact hr, #about2 hr, #contact2 hr,#our hr, #contact3 hr{
     width: 60px;
-    margin-bottom: 3px;
-}
-#icono1{
-    margin: 8px;
-}
-/* PORTAFOLIO */
-.fondo2{
-    text-align: center;
-}
-.fondo2 hr, #icono2{
-    display: inline-block !important;
-    width: 60px;
-    text-align: center;
+    display: inline-block; 
     margin-bottom: 5px;
+    margin-top: 0px;
+}
+#superstar hr, #about hr, #contact hr, #about2 hr, #contact2 hr, #our hr, #contact3 hr{
+    border: 2px solid #fff;
+}
+#portafolio hr, #blog hr{
+    border: 2px solid black;
+}
+#portafolio hr, #icono2, #blog hr, #icono2, #contact2 hr, #icono2{
     color: black;
 }
-.fondo2 img{
+#icono1, #icono2{
+    margin: 8px;
+    display: inline-block;
+}
+/*INDEX - PAGINA ABOUT - PAGINA BLOG  FORMULARIO*/
+#contact input, #contact2 input, #contact3 input{
+    border-style: none;
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+#mensaje{
+    height: 110px;
+    padding-top: 0px;
+}
+/*INDEX - PAGINA ABOUT - PAGINA BLOG  BOTONES SEE MORE, SEND*/
+.boton1, .boton2{
+    padding: 10px;
+    border-radius: 10%;
+    text-shadow: none;   
+}
+.boton1{
+    background: #fff;
+    color: #1a242f;
+    border: 1px solid  #1a242f;   
+}
+.boton2{
+    background: #18bc9c;
+    color: #fff;
+    border: 1px solid #fff;
+}
+/*FIN*/
+
+/*EXTRAS*/
+/* PORTAFOLIO y  PORTAFOLIO 2 IMAGENES */
+#portafolio img,#portafolio2 img {
     width: 100%;
     max-height: 300px;
     margin-bottom: 30px;
 }
+/*ABOUT, BLOG, PORTAFOLIO2 PARAFOS*/
+#portafolio2 p{
+    text-align: justify;
+}
+#about p{
+    font-size: 12px;
+     margin-top: 20px;
+    text-align: left;
+}
+#blog p{
+    margin-top: 10px;
+}
+/*FIN*/
+
+/*FOOTERS*/
+#footer1, #footer2{
+    color: #fff;
+    text-align: center;
+}
+/*FOOTER1*/
+#footer1{
+    padding: 30px 0px 30px 0px;
+    background: #2c3e50;
+}
+#footer1 h4{
+    font-weight: bold;
+}
+.circulo{
+    border-radius: 100%;
+    border: 2px solid #fff;
+    width: 35px;
+    height: 35px;
+    padding:5px;
+    display: inline-block;
+    margin: 0px 3px 0px 3px;
+}
+/*FOOTER2*/
+#footer2{
+    padding: 10px 0px 10px 0px;
+    background: #233140;
+    font-size: 12px;
+}
+
 

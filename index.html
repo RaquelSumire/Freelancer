@@ -25,28 +25,28 @@
 
 </head>
 <body>
-<!--MENU Y LOGO p -->
+<!--MENU Y LOGO -->
 <div class="header">
     <div class="container">
  	    <div class="row">
             <div class="col-md-6">
-                <h3>FREELANCER</h3>
+                 <h3><a href="index.html">FREELANCER</a></h3>
             </div>
  	        <div class="col-md-6">
  		         <div class="main-menu">  
  			        <ul>
                         <li><a href="#portafolio">PORTAFOLIO</a></li>
-                        <li><a href="about.html">ABOUT</a></li>
-                        <li><a href="blog.html">BLOG</a></li>
+                        <li><a href="#about">ABOUT</a></li>
+                        <li><a href="#blog">BLOG</a></li>
                         <li><a href="#contact">CONTACT</a></li>
           	        </ul>
- 		        </div>
+ 		         </div>
             </div>
  	    </div>
      </div>
 </div>
 <!--SUPER STAR-->
-<div class="fondo1">  
+<div id="superstar">  
     <div class="container">
         <div class="row">
             <div class="col-md-12">
@@ -58,12 +58,12 @@
     </div>
 </div>
 <!--PORTAFOLIO-->
-<div id="portafolio" class="fondo2">
+<div id="portafolio">
     <div class="container">
         <div class="row">
             <div class="col-md-12">
                 <h3>PORTAFOLIO</h3>
-                <hr><i id="icono2" class="fa fa-star"></i></span><hr>
+                <hr><i id="icono2" class="fa fa-star"></i><hr>
             </div>
         <div class="row">
             <div class="col-md-4">
@@ -86,99 +86,118 @@
                 <img src="img/portfolio/submarine.png">            
             </div>
         </div>
+        </div>
+              <div>
+                <a href="blog.html" target="_blank"><button class="boton1"><i class="fa fa-download"></i> See More</button></a>
+              </div>
     </div>
 </div>
+<br>
 <!--ABOUT-->
-<div class="fondo3">
+<div id="about">
     <div class="container">
         <div class="row">
             <div class="col-md-12">
                 <h3>ABOUT</h3>
-                <hr><span><i class="fa fa-star-o"></i></span><hr>
+                <hr><span><i id="icono1" class="fa fa-star"></i></span><hr>
             </div>
         </div>
         <div class="row">
-              <div class="col-md-4 col-md-offset-2">
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas ratione sint qui reprehenderit officia quasi quod ab modi                      ipsa, nisi dolorum, facere eligendi minima sit recusandae vero excepturi, architecto quam!</p>
+              <div class="col-md-3 col-md-offset-3">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas ratione sint qui reprehenderit officia quasi quod ab modi                      ipsa, nisi dolorum, facere eligendi minima sit recusandae vero excepturi, architecto quam!
+                     Lorem ipsum dolor sit amet, consectetur.</p>
               </div>
-              <div class="col-md-4">
+              <div class="col-md-3">
                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas ratione sint qui reprehenderit officia quasi quod ab modi                      ipsa, nisi dolorum, facere eligendi minima sit recusandae vero excepturi, architecto quam!</p>
               </div>
         </div>
-        <div class="btn-group" role="group">
-            <button type="button" class="btn btn-default"><i class="fa fa-download"></i> Download Theme</button>
+        <div>
+            <a href="about.html" target="_blank"><button class="boton2"><i class="fa fa-download"></i> See More</button></a>
+        </div>
+        <br>
+        <div>
+            <button class="boton2"><i class="fa fa-download"></i> Download Theme</button>
+        </div>
+    </div>
+</div>
+<!--BLOG-->
+<div id="blog">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h3>BLOG</h3>
+                <hr><span><i id="icono1" class="fa fa-star"></i></span><hr>
+                <br>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas ratione sint qui reprehenderit officia quasi quod ab modi                      ipsa, nisi dolorum, facere eligendi minima sit recusandae vero excepturi, architecto quam! Lorem ipsum dolor sit amet,                             consectetur.</p>
+            </div>  
+        </div>
+        <br>
+        <div class="boton">
+            <a href="blog.html" target="_blank"><button class="boton1"><i class="fa fa-download"></i> See More</button></a>
         </div>
     </div>
 </div>
 <!--CONTACT ME-->
- <div id="contact" class="fondo4">
+ <div id="contact">
     <div class="container">
         <div class="row">
-            <div class="col-md-12">
-                <h2>CONTACT ME</h2>
-                <hr><span><i class="fa fa-star-o"></i></span><hr>
-                <input type="text" class="form-control" placeholder="Name">
-                <input type="text" class="form-control" placeholder="Email Address">
-                <input type="text" class="form-control" placeholder="Phone Number">
-                <input type="text" class="form-control" placeholder="Message">
-                <div class="btn-group" role="group">
-                <button type="button" class="btn btn-default">Send</button>
+                <div class="col-md-12">
+                    <h3>CONTACT ME</h3>
+                    <hr><span><i id="icono1" class="fa fa-star"></i></span><hr>
+                </div>
+                <div class="col-md-6 col-md-offset-3">
+                    <input type="text" class="form-control" placeholder="Name">
+                    <input type="text" class="form-control" placeholder="Email Address">
+                    <input type="text" class="form-control" placeholder="Phone Number">
+                    <input type="text" class="form-control" id="mensaje" placeholder="Message">
+                    <br>
+                    <button type="button" class="boton2">Send</button>
                 </div>
             </div>
         </div>
      </div>
 </div>
  <!--FOOTER 1-->
- <div class="footer">
+ <div id="footer1">
      <div class="container">
          <div class="row">
              <div class="col-md-4">
                  <h4>LOCATION</h4>
+                 <br>
                  <p>3481 Melrose Palace</p>
                  <p>Berbely Hills, CA 90210</p>
              </div>
              <div class="col-md-4">
                  <h4>AROUND THE WEB</h4>
-                 <i class="fa fa-facebook"></i>
-                 <i class="fa fa-google-plus"></i>
-                 <i class="fa fa-twitter"></i>
-                 <i class="fa fa-linkedin"></i>
-                 <i class="fa fa-dribbble"></i>
+                 <br>
+                 <div class="circulo"><i class="fa fa-facebook"></i></div>
+                 <div class="circulo"><i class="fa fa-google-plus"></i></div>
+                 <div class="circulo"><i class="fa fa-twitter"></i></div>
+                 <div class="circulo"><i class="fa fa-linkedin"></i></div>
+                 <div class="circulo"><i class="fa fa-dribbble"></i></div>
              </div>
              <div class="col-md-4">
                  <h4>ABOUT FREELANCER</h4>
+                 <br>
                  <p>Freelancer is a free to use, open source <br>Bootstrap theme created by <a href="#">Star Bootstrap.</a></p>
              </div>
          </div>
      </div>
  </div>
  <!--FOOTER 2-->
- <div class="footer2">
-     <div class="row">
-         <div class="col-md-12">
-             <h6>Copyright Your <i class="fa fa-copyright"></i> Website 2014</h6>
+ <div id="footer2">
+    <div class="container">
+         <div class="row">
+             <div class="col-md-12">
+                 <h6>Copyright Your <i class="fa fa-copyright"></i> Website 2014</h6>
+             </div>
          </div>
      </div>
  </div>
   
-    <!-- Inserta tu código aqui -->
+<!-- JS -->
     <script src="js/jquery.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/freelancer.js"></script>
-
-<script>
-	$(document).ready(init);
-	function init()
-	{
-		//inicio de aplicación
-		$(".list-nav a").click(selectMenu);	
-	}
-	
-	function selectMenu()
-	{
-	$(".main-menu li a").removeClass("active");
-	$(this).addClass("active");
-    }
-</script>
 </body>
 </html>
