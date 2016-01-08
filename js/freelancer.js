@@ -6,11 +6,11 @@ $('.navbar-collapse ul li a').click(function() {
 	function init()
 	{
 		//inicio de aplicación
-		$(".main-menu ul li a").click(selectMenu);	
+		$("#main-menu ul li a").click(selectMenu);	
 	};
 	
 	function selectMenu()
 	{
-	$(".main-menu ul li a").removeClass("active");
+	$("#main-menu ul li a").removeClass("active");
 	$(this).addClass("active");
     };
